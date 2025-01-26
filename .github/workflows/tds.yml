@@ -9,5 +9,5 @@ jobs:
           run: echo "Hello, world!"
           env:
             DEFAULT_BRANCH: mani
-            GITHUB_TOKEN:${{secret-token}}
+            GITHUB_TOKEN:${{secrets.SECRET_KEY_ACTIONS}}
     
