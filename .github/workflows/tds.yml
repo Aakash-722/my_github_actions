@@ -1,13 +1,8 @@
-name: Super-Linter
+name: Hello World
 on: push
 jobs:
   test:
     runs-on: ubuntu-latest
-      steps:
-        - name: 24f1001512@ds.study.iitm.ac.in
-          uses: actions/checkout@v2
-          run: echo "Hello, world!"
-          env:
-            DEFAULT_BRANCH: mani
-            GITHUB_TOKEN:${{secrets.SECRET_KEY_ACTIONS}}
-    
+    steps:
+      - name: 24f1001512@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
